@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<OutputType>Exe</OutputType>
+		<StartupObject>FormatIssue.Program</StartupObject>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Microsoft.Extensions.Localization" Version="6.0.9" />
+	</ItemGroup>
+
+</Project>
